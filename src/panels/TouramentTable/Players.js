@@ -6,7 +6,7 @@ const Players = () => {
     return (
         <div className="tournamentContainer">
             <div className="tournamentSearchBlock">
-                <input className="tournamentSearchInput" type="text" placeholder="Поиск по турниру или команде"></input>
+                <input className="tournamentSearchInput" type="text" placeholder="Поиск по нику игрока..."></input>
                 <input className="tournamentSearchCalendar" type="date"></input>
             </div>
         </div>

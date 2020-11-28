@@ -10,6 +10,7 @@ import Icon24Back from '@vkontakte/icons/dist/24/back';
 import Tournaments from './Tournaments';
 import Matchs from './Matchs';
 import Players from './Players';
+import Teams from './Teams';
 
 const osName = platform();
 
@@ -26,10 +27,10 @@ export const TournamentTable = (props) => {
 			case 'Матчи':
 				setActiveTab(1);
 				break;
-			case 'Команды':
+			case 'Игроки':
 				setActiveTab(2);
 				break;
-			case 'Игроки':
+			case 'Команды':
 				setActiveTab(3);
 				break;
 		}
@@ -67,7 +68,7 @@ export const TournamentTable = (props) => {
 		{activeTab == 2 &&
 		<Players/>}
 		{activeTab == 3 &&
-		<Players/>}
+		<Teams/>}
 
 	</Panel>
 	)
