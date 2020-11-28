@@ -1,0 +1,274 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+    line-height: 36px;
+    background-color: #2b2c32;
+    color: white;
+    border-bottom: 1px solid #121215;
+}
+
+.tournametntTableMenu {
+    width: 100%;
+}
+
+.tournametntTableMenu ul{
+    display: flex;
+}
+
+.tournametntTableMenu li{
+    list-style: none;
+    margin-right:20px;
+}
+.tournametntTableMenu a {
+    color:#acacac;
+    text-decoration: none;
+}
+/* .tournametntTableMenu a:active {
+    color: #00c0ff;
+} */
+.tournametntTableMenu a:hover {
+    color: white;
+}
+
+.tournamentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #2b2c32;
+}
+
+/* Поиск */
+.tournamentSearchBlock {
+    display: flex;
+    width: 100%;
+    margin-top: 15px;;
+}
+
+.tournamentSearchInput {
+    flex: 2 0 auto;
+    align-self: flex-start;
+    height: 38px;
+    background-color: #2b2c32;
+    margin: 0 10px 0 15px;
+}
+.tournamentSearchInput:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    background-color: red;
+}
+
+.tournamentSearchInput, .tournamentSearchCalendar {
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+}
+
+.tournamentSearchCalendar {
+    width: 42px;
+    height: 38px;
+    background-image: url(images/calendar.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 1px;
+    cursor: pointer;
+    background-color: #2b2c32;
+    margin-right: 15px;
+}
+
+.tournamentSearchCalendar:hover {
+    background-color: #1a5880;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 12px;
+    color: #00c0ff;
+    margin-left: 20px;
+    align-self: flex-start;
+}
+
+.tournamentLinks {
+    width: 100%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #acacac;
+    background-color: #222328;
+    border: 1px solid black;
+}
+.tournamentLinks:hover {
+    background-color: #2b2c40;
+}
+.tournamentLinks:nth-child(odd) {
+    background-color: #2b2c32;
+}
+.tournamentLinks:nth-child(odd):hover {
+    background-color: #2b2c40;
+}
+.tournamentLinks div:first-child {
+    margin-left: 15px;
+}
+.tournamentLinks div:last-child {
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matchStatusContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.matchStatusBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.matchStatusBlock div {
+    display: flex;
+    flex-direction: column;   
+}
+.matchStatusBlock div:nth-child(1) span:nth-child(2) {
+    text-align: end;
+}
+
+.gameStatus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameStatusMatchTime {
+    font-size: 11px;
+}
+
+.matchDate {
+    font-size: 11px;
+}
+
+.matchTime {
+    color:  #00c0ff;
+}
+
+.gameStatusHalf {
+ color: #b42a1f;
+}
+
+.teamLogo {
+    width: 36px;
+    height: 36px;
+    margin: 0 15px;
+}
+
+.liveBroadcast {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-image: url('images/liveBroadcast.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.itemList {
+    display: flex;
+    justify-content: center;
+}
+
+.itemList  li, .itemList span, .itemList button {
+    padding: 8px 10px;
+    margin-right: 5px;
+    list-style: none;
+    background-color: #2b2c32;
+    color: #acacac;
+    border: 0;
+    outline: 0;
+}
+
+.itemList  li, .itemList button {
+    cursor: pointer;
+}
+.itemList  li:hover, .itemList button:hover {
+    background-color: #1a5880;
+}
+
+.itemList li:first-child {
+    color: white;
+}
+
+
+
+.currentTournamenntsHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.currentTournamenntsHeader span:nth-child(1) {
+    margin-left: 15px;
+}
+
+.currentTournamenntsHeader div {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.tournamentDateHeader {
+    margin-right: 55px;
+}
+.tournamentDate {
+    margin-right: 25px;
+}
+
+.tournamentLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tournamentNameBlock {
+    display: flex;
+    align-items: center;
+}
+
+.tournamentNameBlock img {
+    margin-right: 15px;
+}
+
+.tournamentDateBlock {
+    text-align: center;
+}
+
+.tournamentTableContainer {
+    display: flex;
+}
+
+.tournamentTableLink {
+    width: 150px;
+    height: 30px;
+    background-color: grey;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+}

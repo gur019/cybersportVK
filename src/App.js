@@ -7,9 +7,9 @@ import '@vkontakte/vkui/dist/vkui.css';
 import Home from './panels/Home';
 import Persik from './panels/Persik';
 import Vasia from './panels/Vasia';
-
+import TournamentTable from './panels/TouramentTable/';
 const App = () => {
-	const [activePanel, setActivePanel] = useState('home');
+	const [activePanel, setActivePanel] = useState('tournamenttable');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
@@ -38,6 +38,8 @@ const App = () => {
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Persik id='persik' go={go} />
 			<Vasia id = 'vasia' go = {go} />
+			<TournamentTable id = 'tournamenttable' go = {go} />
+
 		</View>
 	);
 }

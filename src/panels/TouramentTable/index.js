@@ -6,27 +6,46 @@ import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader
 import PanelHeaderButton from '@vkontakte/vkui/dist/components/PanelHeaderButton/PanelHeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-
+import Tournaments from './Tournaments';
+// import Matchs from './Matchs';
+// import TournamentTables from './TournamentTables';
 
 
 const osName = platform();
 
-const Vasia = props => (
+const TournamentTable = props => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderButton onClick={props.go} data-to="home">
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Vasia
+			TournamentTable
 		</PanelHeader>
-		<p>asdkljask</p>
+		{/* <h2>Турниры</h2> */}
+		<div class="tournametntTableMenu">
+			<ul>
+				<li>
+					<a href="" class="tournamentTabMenuLink" href="">Турниры</a>
+				</li>
+				<li>
+					<a href="" class="tournamentTabMenuLink" href="">Матчи</a>
+				</li>
+				<li>
+					<a href="" class="tournamentTabMenuLink" href="">Команды</a>
+				</li>
+				<li>
+					<a href="" class="tournamentTabMenuLink" href="">Игроки</a>
+				</li>
+			</ul>
+		</div>
+		<Tournaments/>
 	</Panel>
 );
 
-Vasia.propTypes = {
+TournamentTable.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 };
 
-export default Vasia;
+export default TournamentTable;
