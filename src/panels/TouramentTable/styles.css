@@ -259,16 +259,3 @@ h3 {
 .tournamentDateBlock {
     text-align: center;
 }
-
-.tournamentTableContainer {
-    display: flex;
-}
-
-.tournamentTableLink {
-    width: 150px;
-    height: 30px;
-    background-color: grey;
-    margin: 5px;
-    text-align: center;
-    line-height: 30px;
-}

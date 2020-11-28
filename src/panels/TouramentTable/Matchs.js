@@ -1,5 +1,5 @@
 import React from 'react';
-import './Matchs.css';
+import './styles.css';
 import teamLogo1 from './images/teamLogo1.png';
 import teamLogo2 from './images/teamLogo2.png';
 import tournamentLogo from './images/tournamentLogo.png';
