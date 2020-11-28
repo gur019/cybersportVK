@@ -7,6 +7,7 @@ import '@vkontakte/vkui/dist/vkui.css';
 import Home from './panels/Home';
 import Persik from './panels/Persik';
 import Vasia from './panels/Vasia';
+import {TournamentTable} from './panels/TouramentTable/index';
 import CompetenceWelcom from './panels/CompetenceWelcom';
 import Epic from './panels/Epic';
 import Organizers from './panels/Organizers';
@@ -47,6 +48,8 @@ const App = () => {
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Persik id='persik' go={go} />
 			<Vasia id = 'vasia' go = {go} />
+			<TournamentTable id = 'tournamenttable' go = {go} />
+
 			<CompetenceWelcom id = 'CompetenceWelcom' go = {go} />
 			<Epic id = 'Epic' go = {go} />
 			<Organizers  id = 'Organizers' fetchedUser={fetchedUser} go = {go}/>

@@ -20,7 +20,7 @@ const Vasia = props => (
 		>
 			Vasia
 		</PanelHeader>
-		<p>asdkljaskjdhasui</p>
+		<p>asdkljask</p>
 	</Panel>
 );
 
