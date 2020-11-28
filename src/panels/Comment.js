@@ -24,7 +24,6 @@ const osName = platform();
 
 
 const Comment  = (props) =>  {
-
     return(
 	<Panel id={props.id}>
 		<PanelHeader
@@ -32,7 +31,7 @@ const Comment  = (props) =>  {
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			Заур Иванов
+			Отзывы
 		</PanelHeader>
         
         <div style={{zIndex:"1000" , position:'fixed', backgroundColor:'#19191a'}}>
