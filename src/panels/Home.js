@@ -20,7 +20,7 @@ const Home = ({ id, go, fetchedUser }) => (
 			<Group>
 				<Div className='User'>
 					{fetchedUser.photo_200 ? <Avatar size = {150} src={fetchedUser.photo_200}/> : null}
-					<h2>Привет, {fetchedUser.first_name}</h2>
+					<h2>Привет, {fetchedUser.first_name} !</h2>
 					<h3>Этот сервис поможет поможет Вам в организации и участии в турнирах</h3>
 				</Div>
 			</Group>

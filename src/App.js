@@ -12,7 +12,7 @@ import Epic from './panels/Epic';
 
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('CompetenceWelcom');
+	const [activePanel, setActivePanel] = useState('Epic');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 

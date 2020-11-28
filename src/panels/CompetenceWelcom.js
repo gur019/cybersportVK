@@ -38,7 +38,7 @@ const CompetenceWelcom = props => (
 
 		<FixedLayout vertical='bottom'>
 			<Div>
-				<Button mode='commerce' size="xl" level="2">
+				<Button mode='commerce' size="xl" level="2" onClick={props.go} data-to="Epic">
 					Готово
 				</Button>
 			</Div>
