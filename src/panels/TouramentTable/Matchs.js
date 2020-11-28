@@ -12,8 +12,8 @@ const Matchs = () => {
                 <input class="tournamentSearchCalendar" type="date"></input>
             </div>
 
-            <section class="currentGames">
-                <h3>ТЕКУЩИЕ ИГРЫ</h3>
+            <section class="sectionContainer currentGames">
+                <h3 class="sectionHeader">ТЕКУЩИЕ ИГРЫ</h3>
 
                 <a href="" class="tournamentLinks">
                     <div>
@@ -76,8 +76,8 @@ const Matchs = () => {
 
 
             
-            <section class="futureGames">
-                <h3>БУДУЩИЕ ИГРЫ</h3>
+            <section class="sectionContainer futureGames">
+                <h3 class="sectionHeader">БУДУЩИЕ ИГРЫ</h3>
                 <a href="" class="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
@@ -250,8 +250,8 @@ const Matchs = () => {
 
 
 
-            <section class="pastGames">
-                <h3>Прошедшие игры</h3>
+            <section class="sectionContainer pastGames">
+                <h3 class="sectionHeader">ПРОШЕДШИЕ ИГРЫ</h3>
                 <a href="" class="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
@@ -471,7 +471,7 @@ const Matchs = () => {
             </section>
 
 
-            <section>
+            <section class="sectionContainer">
                 <ul class="itemList">
                     <li>1</li>
                     <li>2</li>

@@ -6,9 +6,8 @@ import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader
 import PanelHeaderButton from '@vkontakte/vkui/dist/components/PanelHeaderButton/PanelHeaderButton';
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
-import Tournaments from './Tournaments';
-// import Matchs from './Matchs';
-// import TournamentTables from './TournamentTables';
+// import Tournaments from './Tournaments';
+import Matchs from './Matchs';
 
 
 const osName = platform();
@@ -38,7 +37,7 @@ const TournamentTable = props => (
 				</li>
 			</ul>
 		</div>
-		<Tournaments/>
+		<Matchs/>
 	</Panel>
 );
 

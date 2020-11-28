@@ -12,8 +12,8 @@ const Tournaments = () => {
 
 
 
-            <section class="currentTournamennts">
-                <h3>БУДУЩИЕ ТУРНИРЫ</h3>
+            <section class="currentTournamennts sectionContainer">
+                <h3 class="sectionHeader">БУДУЩИЕ ТУРНИРЫ</h3>
                 <div class="currentTournamenntsHeader">
                     <span>Турнир</span>
                     <div>
@@ -35,8 +35,8 @@ const Tournaments = () => {
 
 
 
-            <section class="currentTournamennts">
-                <h3>ТЕКУЩИЕ ТУРНИРЫ</h3>
+            <section class="currentTournamennts sectionContainer">
+                <h3 class="sectionHeader">ТЕКУЩИЕ ТУРНИРЫ</h3>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
                         <img src={tournamentLogo} width="35" height="auto"/>
@@ -71,8 +71,8 @@ const Tournaments = () => {
 
 
 
-            <section class="currentTournamennts">
-                <h3>ПРОШЕДШИЕ ТУРНИРЫ</h3>
+            <section class="currentTournamennts sectionContainer">
+                <h3 class="sectionHeader">ПРОШЕДШИЕ ТУРНИРЫ</h3>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
                         <img src={tournamentLogo} width="35" height="auto"/>
@@ -105,7 +105,7 @@ const Tournaments = () => {
                 </a>
             </section>
 
-            <section>
+            <section class="sectionContainer">
                 <ul class="itemList">
                     <li>1</li>
                     <li>2</li>
