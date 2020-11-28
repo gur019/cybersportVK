@@ -11,10 +11,13 @@ import CompetenceWelcom from './panels/CompetenceWelcom';
 import Epic from './panels/Epic';
 import Organizers from './panels/Organizers';
 import Comment from './panels/Comment';
+import Icreated from './panels/Icreated';
+
+
 
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('home');
+	const [activePanel, setActivePanel] = useState('Icreated');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
@@ -47,6 +50,7 @@ const App = () => {
 			<Epic id = 'Epic' go = {go} />
 			<Organizers  id = 'Organizers' fetchedUser={fetchedUser} go = {go}/>
 			<Comment id='Comment' go = {go}/>
+			<Icreated id='Icreated' go = {go}/>
 		</View>
 	);
 }
