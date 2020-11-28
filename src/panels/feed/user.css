@@ -1,0 +1,20 @@
+.userBlock{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 12px;
+
+}
+.userBlock img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.userBlock__button{
+    margin: 0 15px;
+}
+
+.userBlock__button1{
+    background-color: #5181B8;
+}

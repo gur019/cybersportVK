@@ -9,10 +9,12 @@ import Persik from './panels/Persik';
 import Vasia from './panels/Vasia';
 import CompetenceWelcom from './panels/CompetenceWelcom';
 import Epic from './panels/Epic';
+import Organizers from './panels/Organizers';
+import Comment from './panels/Comment';
 
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('Epic');
+	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
@@ -43,6 +45,8 @@ const App = () => {
 			<Vasia id = 'vasia' go = {go} />
 			<CompetenceWelcom id = 'CompetenceWelcom' go = {go} />
 			<Epic id = 'Epic' go = {go} />
+			<Organizers  id = 'Organizers' fetchedUser={fetchedUser} go = {go}/>
+			<Comment id='Comment' go = {go}/>
 		</View>
 	);
 }
