@@ -1,0 +1,13 @@
+.center{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mc{
+    margin: 10px;
+    width: 192px;
+    height: 44px;
+}
