@@ -23,7 +23,7 @@ import {AddEvent} from './addEvent/addEvent';
 
 
 const Epic = (props) => {
-    const [activePanelCustom, setActivePanelCustom] = useState('finder');
+    const [activePanelCustom, setActivePanelCustom] = useState('feed');
     const [activePanelCustomHeader, setActivePanelCustomHeader] = useState('Новости');
     
     function changePanel(e){
