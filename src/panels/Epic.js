@@ -17,12 +17,13 @@ import { useState } from "react";
 import './Epic.css';
 
 import {Feed} from './feed/feed';
+import {Finder} from './finder/finder'
 import {Tv} from './tv/tv';
 import {AddEvent} from './addEvent/addEvent';
 
 
 const Epic = (props) => {
-    const [activePanelCustom, setActivePanelCustom] = useState('feed');
+    const [activePanelCustom, setActivePanelCustom] = useState('finder');
     const [activePanelCustomHeader, setActivePanelCustomHeader] = useState('Новости');
     
     function changePanel(e){
@@ -54,7 +55,7 @@ const Epic = (props) => {
               selected={activePanelCustom === 'addEvent'}
               data-story="addEvent"
               data-text="Создать турнир"
-              text="Создать турнир"
+              text="Создать"
             ><Icon28AddCircleOutline/></TabbarItem>
             <TabbarItem
               onClick = {changePanel}
@@ -81,7 +82,7 @@ const Epic = (props) => {
           <AddEvent id={props.id} go={props.go}/>
         }
         {activePanelCustom === "finder" &&
-          <p>asdasd</p>
+            <Finder/>
         }
         {activePanelCustom === "settings" &&
           <p>asdasd</p>
