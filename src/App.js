@@ -7,7 +7,7 @@ import '@vkontakte/vkui/dist/vkui.css';
 import Home from './panels/Home';
 import Persik from './panels/Persik';
 import Vasia from './panels/Vasia';
-import TournamentTable from './panels/TouramentTable/';
+import {TournamentTable} from './panels/TouramentTable/index';
 import CompetenceWelcom from './panels/CompetenceWelcom';
 import Epic from './panels/Epic';
 import Organizers from './panels/Organizers';
@@ -18,7 +18,7 @@ import Icreated from './panels/Icreated';
 
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('home');
+	const [activePanel, setActivePanel] = useState('tournamenttable');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 

@@ -6,473 +6,473 @@ import tournamentLogo from './images/tournamentLogo.png';
 
 const Matchs = () => {
     return (
-        <div class="tournamentContainer">
-            <div class="tournamentSearchBlock">
-                <input class="tournamentSearchInput" type="text" placeholder="Поиск по турниру или команде"></input>
-                <input class="tournamentSearchCalendar" type="date"></input>
+        <div className="tournamentContainer">
+            <div className="tournamentSearchBlock">
+                <input className="tournamentSearchInput" type="text" placeholder="Поиск по турниру или команде"></input>
+                <input className="tournamentSearchCalendar" type="date"></input>
             </div>
 
-            <section class="sectionContainer currentGames">
-                <h3 class="sectionHeader">ТЕКУЩИЕ ИГРЫ</h3>
+            <section className="sectionContainer currentGames">
+                <h3 className="sectionHeader">ТЕКУЩИЕ ИГРЫ</h3>
 
-                <a href="" class="tournamentLinks">
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="gameStatusHalf">Игра 1/3</span>
-                            <span class="gameStatusMatchTime">+46:34</span>
+                        <div className="gameStatus">
+                            <span className="gameStatusHalf">Игра 1/3</span>
+                            <span className="gameStatusMatchTime">+46:34</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
 
-                <a href="" class="tournamentLinks">
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="gameStatusHalf">Игра 3/3</span>
-                            <span class="gameStatusMatchTime">+59:34</span>
+                        <div className="gameStatus">
+                            <span className="gameStatusHalf">Игра 3/3</span>
+                            <span className="gameStatusMatchTime">+59:34</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
             </section>
 
 
             
-            <section class="sectionContainer futureGames">
-                <h3 class="sectionHeader">БУДУЩИЕ ИГРЫ</h3>
-                <a href="" class="tournamentLinks">
+            <section className="sectionContainer futureGames">
+                <h3 className="sectionHeader">БУДУЩИЕ ИГРЫ</h3>
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="matchTime">19:00</span>
-                            <span class="matchDate">29:11</span>
+                        <div className="gameStatus">
+                            <span className="matchTime">19:00</span>
+                            <span className="matchDate">29:11</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
-                <a href="" class="tournamentLinks">
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent" class="teamInfoBlock">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent" className="teamInfoBlock">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="matchTime">19:00</span>
-                            <span class="matchDate">29:11</span>
+                        <div className="gameStatus">
+                            <span className="matchTime">19:00</span>
+                            <span className="matchDate">29:11</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="teamInfoBlock" class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="teamInfoBlock" className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
-                <a href="" class="tournamentLinks">
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="matchTime">19:00</span>
-                            <span class="matchDate">29:11</span>
+                        <div className="gameStatus">
+                            <span className="matchTime">19:00</span>
+                            <span className="matchDate">29:11</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
-                <a href="" class="tournamentLinks">
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="matchTime">19:00</span>
-                            <span class="matchDate">29:11</span>
+                        <div className="gameStatus">
+                            <span className="matchTime">19:00</span>
+                            <span className="matchDate">29:11</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
-                <a href="" class="tournamentLinks">
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="matchTime">19:00</span>
-                            <span class="matchDate">30:11</span>
+                        <div className="gameStatus">
+                            <span className="matchTime">19:00</span>
+                            <span className="matchDate">30:11</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
-                <a href="" class="tournamentLinks">
+                <a href="#" className="tournamentLinks">
                     <div>
                         <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
                             </div>
-                            <img class="teamLogo" src={teamLogo1}/>
+                            <img className="teamLogo" src={teamLogo1}/>
                         </div>
-                        <div class="gameStatus">
-                            <span class="matchTime">19:00</span>
-                            <span class="matchDate">30:11</span>
+                        <div className="gameStatus">
+                            <span className="matchTime">19:00</span>
+                            <span className="matchDate">30:11</span>
                         </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-            </section>
-
-
-
-            <section class="sectionContainer pastGames">
-                <h3 class="sectionHeader">ПРОШЕДШИЕ ИГРЫ</h3>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                    </div>
-                    <div class="matchStatusContainer">
-                        <div class="matchStatusBlock">
-                            <div class="matchStatusContent">
-                                <span class="teamName">NNB-team</span>
-                                <span class="teamRate">1.62</span>
-                            </div>
-                            <img class="teamLogo" src={teamLogo1}/>
-                        </div>
-                        <div class="gameStatus">
-                            <span class="matchScore">2:0</span>
-                        </div>
-                        <div class="matchStatusBlock">
-                            <img class="teamLogo" src={teamLogo2}/>
-                            <div class="matchStatusContent">
-                                <span class="teamName">NAVI</span>
-                                <span class="teamRate">2.21</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <a href="" class="liveBroadcast"></a>
+                        <div href="#" className="liveBroadcast"></div>
                     </div>
                 </a>
             </section>
 
 
-            <section class="sectionContainer">
-                <ul class="itemList">
+
+            <section className="sectionContainer pastGames">
+                <h3 className="sectionHeader">ПРОШЕДШИЕ ИГРЫ</h3>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+                <a href="#" className="tournamentLinks">
+                    <div>
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                    </div>
+                    <div className="matchStatusContainer">
+                        <div className="matchStatusBlock">
+                            <div className="matchStatusContent">
+                                <span className="teamName">NNB-team</span>
+                                <span className="teamRate">1.62</span>
+                            </div>
+                            <img className="teamLogo" src={teamLogo1}/>
+                        </div>
+                        <div className="gameStatus">
+                            <span className="matchScore">2:0</span>
+                        </div>
+                        <div className="matchStatusBlock">
+                            <img className="teamLogo" src={teamLogo2}/>
+                            <div className="matchStatusContent">
+                                <span className="teamName">NAVI</span>
+                                <span className="teamRate">2.21</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div href="#" className="liveBroadcast"></div>
+                    </div>
+                </a>
+            </section>
+
+
+            <section className="sectionContainer">
+                <ul className="itemList">
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>

@@ -4,30 +4,30 @@ import tournamentLogo from './images/tournamentLogo.png';
 
 const Tournaments = () => {
     return (
-        <div class="tournamentContainer">
-            <div class="tournamentSearchBlock">
-                <input class="tournamentSearchInput" type="text" placeholder="Поиск по названию турнирf"></input>
-                <input class="tournamentSearchCalendar" type="date" атрибуты></input>
+        <div className="tournamentContainer">
+            <div className="tournamentSearchBlock">
+                <input className="tournamentSearchInput" type="text" placeholder="Поиск по названию турниры"></input>
+                <input className="tournamentSearchCalendar" type="date"></input>
             </div>
 
 
 
-            <section class="currentTournamennts sectionContainer">
-                <h3 class="sectionHeader">БУДУЩИЕ ТУРНИРЫ</h3>
-                <div class="currentTournamenntsHeader">
+            <section className="currentTournamennts sectionContainer">
+                <h3 className="sectionHeader">БУДУЩИЕ ТУРНИРЫ</h3>
+                <div className="currentTournamenntsHeader">
                     <span>Турнир</span>
                     <div>
-                        <span class="tournamentDateHeader">Дата</span>
+                        <span className="tournamentDateHeader">Дата</span>
                         <span>Призовые</span>
                     </div>
                 </div>
-                <a href="" class="tournamentLinks">
-                    <div class="tournamentNameBlock">
+                <a href="" className="tournamentLinks">
+                    <div className="tournamentNameBlock">
                         <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
-                    <div class="tournamentDateBlock">
-                        <span class="tournamentDate">12 ноя - 13 дек 2020</span>
+                    <div className="tournamentDateBlock">
+                        <span className="tournamentDate">12 ноя - 13 дек 2020</span>
                         <span>$500 000</span>
                     </div>
                 </a>
@@ -35,78 +35,78 @@ const Tournaments = () => {
 
 
 
-            <section class="currentTournamennts sectionContainer">
-                <h3 class="sectionHeader">ТЕКУЩИЕ ТУРНИРЫ</h3>
-                <a href="" class="tournamentLinks">
-                    <div class="tournamentNameBlock">
+            <section className="currentTournamennts sectionContainer">
+                <h3 className="sectionHeader">ТЕКУЩИЕ ТУРНИРЫ</h3>
+                <a href="" className="tournamentLinks">
+                    <div className="tournamentNameBlock">
                         <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
-                    <div class="tournamentDateBlock">
-                        <span class="tournamentDate">12 ноя - 13 дек 2020</span>
+                    <div className="tournamentDateBlock">
+                        <span className="tournamentDate">12 ноя - 13 дек 2020</span>
                         <span>$500 000</span>
                     </div>
                 </a>
-                <a href="" class="tournamentLinks">
-                    <div class="tournamentNameBlock">
+                <a href="" className="tournamentLinks">
+                    <div className="tournamentNameBlock">
                         <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
-                    <div class="tournamentDateBlock">
-                        <span class="tournamentDate">12 ноя - 13 дек 2020</span>
+                    <div className="tournamentDateBlock">
+                        <span className="tournamentDate">12 ноя - 13 дек 2020</span>
                         <span>$500 000</span>
                     </div>
                 </a>
-                <a href="" class="tournamentLinks">
-                    <div class="tournamentNameBlock">
+                <a href="" className="tournamentLinks">
+                    <div className="tournamentNameBlock">
                         <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
-                    <div class="tournamentDateBlock">
-                        <span class="tournamentDate">12 ноя - 13 дек 2020</span>
-                        <span>$500 000</span>
-                    </div>
-                </a>
-            </section>
-
-
-
-            <section class="currentTournamennts sectionContainer">
-                <h3 class="sectionHeader">ПРОШЕДШИЕ ТУРНИРЫ</h3>
-                <a href="" class="tournamentLinks">
-                    <div class="tournamentNameBlock">
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                        <span>EPIC League Division 1</span>
-                    </div>
-                    <div class="tournamentDateBlock">
-                        <span class="tournamentDate">12 ноя - 13 дек 2020</span>
-                        <span>$500 000</span>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div class="tournamentNameBlock">
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                        <span>EPIC League Division 1</span>
-                    </div>
-                    <div class="tournamentDateBlock">
-                        <span class="tournamentDate">12 ноя - 13 дек 2020</span>
-                        <span>$500 000</span>
-                    </div>
-                </a>
-                <a href="" class="tournamentLinks">
-                    <div class="tournamentNameBlock">
-                        <img src={tournamentLogo} width="35" height="auto"/>
-                        <span>EPIC League Division 1</span>
-                    </div>
-                    <div class="tournamentDateBlock">
-                        <span class="tournamentDate">12 ноя - 13 дек 2020</span>
+                    <div className="tournamentDateBlock">
+                        <span className="tournamentDate">12 ноя - 13 дек 2020</span>
                         <span>$500 000</span>
                     </div>
                 </a>
             </section>
 
-            <section class="sectionContainer">
-                <ul class="itemList">
+
+
+            <section className="currentTournamennts sectionContainer">
+                <h3 className="sectionHeader">ПРОШЕДШИЕ ТУРНИРЫ</h3>
+                <a href="" className="tournamentLinks">
+                    <div className="tournamentNameBlock">
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <span>EPIC League Division 1</span>
+                    </div>
+                    <div className="tournamentDateBlock">
+                        <span className="tournamentDate">12 ноя - 13 дек 2020</span>
+                        <span>$500 000</span>
+                    </div>
+                </a>
+                <a href="" className="tournamentLinks">
+                    <div className="tournamentNameBlock">
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <span>EPIC League Division 1</span>
+                    </div>
+                    <div className="tournamentDateBlock">
+                        <span className="tournamentDate">12 ноя - 13 дек 2020</span>
+                        <span>$500 000</span>
+                    </div>
+                </a>
+                <a href="" className="tournamentLinks">
+                    <div className="tournamentNameBlock">
+                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <span>EPIC League Division 1</span>
+                    </div>
+                    <div className="tournamentDateBlock">
+                        <span className="tournamentDate">12 ноя - 13 дек 2020</span>
+                        <span>$500 000</span>
+                    </div>
+                </a>
+            </section>
+
+            <section className="sectionContainer">
+                <ul className="itemList">
                     <li>1</li>
                     <li>2</li>
                     <li>3</li>
