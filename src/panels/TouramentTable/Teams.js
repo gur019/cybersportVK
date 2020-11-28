@@ -37,210 +37,210 @@ const Teams = () => {
             </div>
             <section className="teamContainers">
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag1} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag1} width="15" height="auto" alt=""/>
                         <span>Virtus.pro</span>
                     </div>
-                    <img src={teamLogo3} className="teamLogo1" />
+                    <img src={teamLogo3} className="teamLogo1" alt=""/>
                     <span className="dpc">DPC: 175</span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={virtusTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={virtusTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM5} alt=""/>
+                        
                     </div>
                 </div>
 
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag2} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag2} width="15" height="auto" alt=""/>
                         <span>Natus Vincere</span>
                     </div>
-                    <img src={teamLogo2} className="teamLogo1" />
+                    <img src={teamLogo2} className="teamLogo1"  alt=""/>
                     <span className="dpc">DPC: 158</span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={naviTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={naviTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM5} alt=""/>
+                        
                     </div>
                 </div>
 
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag3} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag3} width="15" height="auto" alt=""/>
                         <span>OG</span>
                     </div>
-                    <img src={teamLogo4} className="teamLogo1" />
+                    <img src={teamLogo4} className="teamLogo1" alt=""/>
                     <span className="dpc">DPC: 175</span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={ogTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={ogTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM5} alt=""/>
+                        
                     </div>
                 </div>
 
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag3} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag3} width="15" height="auto" alt=""/>
                         <span>Team Nigma</span>
                     </div>
-                    <img src={teamLogo5} className="teamLogo1" />
+                    <img src={teamLogo5} className="teamLogo1" alt=""/>
                     <span className="dpc">DPC: 158</span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={nigmaTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM5} alt=""/>
+                        
                     </div>
                 </div>
 
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag1} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag1} width="15" height="auto" alt=""/>
                         <span>Virtus.pro</span>
                     </div>
-                    <img src={teamLogo3} className="teamLogo1" />
+                    <img src={teamLogo3} className="teamLogo1"  alt=""/>
                     <span className="dpc">DPC: 175</span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={virtusTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={virtusTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={virtusTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={virtusTM5} alt=""/>
+                        
                     </div>
                 </div>
 
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag2} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag2} width="15" height="auto" alt=""/>
                         <span>Natus Vincere</span>
                     </div>
-                    <img src={teamLogo2} className="teamLogo1" />
+                    <img src={teamLogo2} className="teamLogo1" alt="" />
                     <span className="dpc">DPC: 158</span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={naviTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={naviTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={naviTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={naviTM5} alt=""/>
+                        
                     </div>
                 </div>
 
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag3} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag3} width="15" height="auto" alt=""/>
                         <span>OG</span>
                     </div>
-                    <img src={teamLogo4} className="teamLogo1" />
+                    <img src={teamLogo4} className="teamLogo1"  alt=""/>
                     <span className="dpc">DPC: </span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={ogTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={ogTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={ogTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={ogTM5} alt=""/>
+                        
                     </div>
                 </div>
 
                 <div className="teamBlock">
-                    <div class="teamNameBlock">
-                        <img src={flag3} width="15" height="auto"/>
+                    <div className="teamNameBlock">
+                        <img src={flag3} width="15" height="auto" alt=""/>
                         <span>Team Nigma</span>
                     </div>
-                    <img src={teamLogo5} className="teamLogo1" />
+                    <img src={teamLogo5} className="teamLogo1" alt=""/>
                     <span className="dpc">DPC: 150</span>
                     <div>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM1}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM2}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM3}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM4}/>
-                        </a>
-                        <a>
-                            <img className="teammateImg" src={nigmaTM5}/>
-                        </a>
+                        
+                            <img className="teammateImg" src={nigmaTM1} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM2} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM3} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM4} alt=""/>
+                        
+                        
+                            <img className="teammateImg" src={nigmaTM5} alt=""/>
+                        
                     </div>
                 </div>
                 

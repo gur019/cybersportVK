@@ -15,9 +15,9 @@ const Matchs = () => {
             <section className="sectionContainer currentGames">
                 <h3 className="sectionHeader">ТЕКУЩИЕ ИГРЫ</h3>
 
-                <a href="#" className="tournamentLinks">
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -25,14 +25,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="gameStatusHalf">Игра 1/3</span>
                             <span className="gameStatusMatchTime">+46:34</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -40,13 +40,13 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
+                </div>
 
-                <a href="#" className="tournamentLinks">
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -54,14 +54,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="gameStatusHalf">Игра 3/3</span>
                             <span className="gameStatusMatchTime">+59:34</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -69,18 +69,18 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
+                </div>
             </section>
 
 
             
             <section className="sectionContainer futureGames">
                 <h3 className="sectionHeader">БУДУЩИЕ ИГРЫ</h3>
-                <a href="#" className="tournamentLinks">
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -88,14 +88,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchTime">19:00</span>
                             <span className="matchDate">29:11</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -103,12 +103,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -116,14 +116,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchTime">19:00</span>
                             <span className="matchDate">29:11</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="teamInfoBlock" className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -131,12 +131,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -144,14 +144,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchTime">19:00</span>
                             <span className="matchDate">29:11</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -159,12 +159,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -172,14 +172,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchTime">19:00</span>
                             <span className="matchDate">29:11</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -187,12 +187,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -200,14 +200,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchTime">19:00</span>
                             <span className="matchDate">30:11</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -215,12 +215,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -228,14 +228,14 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchTime">19:00</span>
                             <span className="matchDate">30:11</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -243,18 +243,18 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
+                </div>
             </section>
 
 
 
             <section className="sectionContainer pastGames">
                 <h3 className="sectionHeader">ПРОШЕДШИЕ ИГРЫ</h3>
-                <a href="#" className="tournamentLinks">
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -262,13 +262,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -276,12 +276,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -289,13 +289,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -303,12 +303,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -316,13 +316,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -330,12 +330,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -343,13 +343,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -357,12 +357,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -370,13 +370,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -384,12 +384,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -397,13 +397,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -411,12 +411,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -424,13 +424,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -438,12 +438,12 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
-                <a href="#" className="tournamentLinks">
+                </div>
+                <div  className="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="35" height="auto"/>
+                        <img alt="" src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div className="matchStatusContainer">
                         <div className="matchStatusBlock">
@@ -451,13 +451,13 @@ const Matchs = () => {
                                 <span className="teamName">NNB-team</span>
                                 <span className="teamRate">1.62</span>
                             </div>
-                            <img className="teamLogo" src={teamLogo1}/>
+                            <img alt="" className="teamLogo" src={teamLogo1}/>
                         </div>
                         <div className="gameStatus">
                             <span className="matchScore">2:0</span>
                         </div>
                         <div className="matchStatusBlock">
-                            <img className="teamLogo" src={teamLogo2}/>
+                            <img alt="" className="teamLogo" src={teamLogo2}/>
                             <div className="matchStatusContent">
                                 <span className="teamName">NAVI</span>
                                 <span className="teamRate">2.21</span>
@@ -465,22 +465,11 @@ const Matchs = () => {
                         </div>
                     </div>
                     <div>
-                        <div href="#" className="liveBroadcast"></div>
+                        <div  className="liveBroadcast"></div>
                     </div>
-                </a>
+                </div>
             </section>
 
-
-            <section className="sectionContainer">
-                <ul className="itemList">
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <span>...</span>
-                    <li>391</li>
-                    <button>></button>
-                </ul>
-            </section>
         </div>
 
     )

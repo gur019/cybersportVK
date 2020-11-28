@@ -19,7 +19,7 @@ import Learn from './panels/Learn';
 
 
 const App = () => {
-	const [activePanel, setActivePanel] = useState('Epic');
+	const [activePanel, setActivePanel] = useState('home');
 	const [fetchedUser, setUser] = useState(null);
 	const [popout, setPopout] = useState(<ScreenSpinner size='large' />);
 
@@ -46,12 +46,9 @@ const App = () => {
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
-			<Persik id='persik' go={go} />
-			<Vasia id = 'vasia' go = {go} />
-			<TournamentTable id = 'tournamenttable' go = {go} />
-
 			<CompetenceWelcom id = 'CompetenceWelcom' go = {go} />
 			<Epic id = 'Epic' go = {go} />
+			<TournamentTable id = 'tournamenttable' go = {go} />
 			<Organizers  id = 'Organizers' fetchedUser={fetchedUser} go = {go}/>
 			<Comment id='Comment' go = {go}/>
 			<Icreated id='Icreated' go = {go}/>

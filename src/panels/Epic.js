@@ -75,7 +75,7 @@ const Epic = (props) => {
             ><Icon28SettingsOutline/></TabbarItem>
         </Tabbar>
         {activePanelCustom === "feed" &&
-            <Feed/>
+            <Feed id={props.id} go={props.go}/>
         }
         {activePanelCustom === "tv" &&
           <Tv/>

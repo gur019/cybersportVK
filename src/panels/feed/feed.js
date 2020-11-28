@@ -38,7 +38,7 @@ export const Feed = (props) => {
             <Card size="l">
                 <div className="FeedBlock FeedBlock__5">
                     <span>Турнирная таблица</span>
-                    <Button mode="primary">Перейти</Button>
+                    <Button mode="primary" onClick={props.go} data-to="tournamenttable">Перейти</Button>
                 </div>
             </Card>
 

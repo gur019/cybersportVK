@@ -1,6 +1,5 @@
 import React from 'react';
-import { useState, useEffect  } from "react";
-import PropTypes from 'prop-types';
+import { useState} from "react";
 import { platform, IOS } from '@vkontakte/vkui';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
@@ -34,30 +33,29 @@ export const TournamentTable = (props) => {
 				setActiveTab(3);
 				break;
 		}
-		// setActiveTab()
 	}
 	return(
 	<Panel id={props.id}>
 		<PanelHeader
-			left={<PanelHeaderButton onClick={props.go} data-to="home">
+			left={<PanelHeaderButton onClick={props.go} data-to="Epic">
 				{osName === IOS ? <Icon28ChevronBack/> : <Icon24Back/>}
 			</PanelHeaderButton>}
 		>
-			TournamentTable
+			Турнирная таблица
 		</PanelHeader>
 		<div className="tournametntTableMenu">
 			<ul>
 				<li>
-					<a onClick = {switcher} href="#" className="tournamentTabMenuLink" href="">Турниры</a>
+					<a onClick = {switcher} href="" className="tournamentTabMenuLink">Турниры</a>
 				</li>
 				<li>
-					<a onClick = {switcher} href="#" className="tournamentTabMenuLink" href="">Матчи</a>
+					<a onClick = {switcher} href="" className="tournamentTabMenuLink" >Матчи</a>
 				</li>
 				<li>
-					<a onClick = {switcher} href="#" className="tournamentTabMenuLink" href="">Команды</a>
+					<a onClick = {switcher} href="" className="tournamentTabMenuLink">Команды</a>
 				</li>
 				<li>
-					<a onClick = {switcher} href="#" className="tournamentTabMenuLink" href="">Игроки</a>
+					<a onClick = {switcher} href="" className="tournamentTabMenuLink" >Игроки</a>
 				</li>
 			</ul>
 		</div>
@@ -73,8 +71,3 @@ export const TournamentTable = (props) => {
 	</Panel>
 	)
 }
-
-TournamentTable.propTypes = {
-	id: PropTypes.string.isRequired,
-	go: PropTypes.func.isRequired,
-};

@@ -7,7 +7,7 @@ import Header from '@vkontakte/vkui/dist/components/Header/Header';
 export const Tv = () => {
     return(
         <>
-        <Group separator="hide" header={<Header mode="secondary">NAVI.s1mple 35\15 KD vs NiP на de_train. csgo navi</Header>}>
+        {/* <Group separator="hide" header={<Header mode="secondary">NAVI.s1mple 35\15 KD vs NiP на de_train. csgo navi</Header>}>
             <CardGrid>
                 <Card size="l">
                     <div style={{ height: 300 }}>
@@ -15,7 +15,7 @@ export const Tv = () => {
                     </div>
                 </Card>
             </CardGrid>
-        </Group>
+        </Group> */}
         <Group separator="hide" header={<Header mode="secondary">Flamie - ЛУЧШИЕ МОМЕНТЫ В 2020 ГОДУ. NAVI. csgo. киберспорт.</Header>}>
             <CardGrid>
                 <Card size="l">
