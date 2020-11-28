@@ -7,16 +7,16 @@ import PanelHeaderButton from '@vkontakte/vkui/dist/components/PanelHeaderButton
 import Icon28ChevronBack from '@vkontakte/icons/dist/28/chevron_back';
 import Icon24Back from '@vkontakte/icons/dist/24/back';
 
-import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
-import Switch from '@vkontakte/vkui/dist/components/Switch/Switch';
-import Button from '@vkontakte/vkui/dist/components/Button/Button';
-import FixedLayout from '@vkontakte/vkui/dist/components/FixedLayout/FixedLayout';
-import Div from '@vkontakte/vkui/dist/components/Div/Div';
+// import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
+// import Switch from '@vkontakte/vkui/dist/components/Switch/Switch';
+// import Button from '@vkontakte/vkui/dist/components/Button/Button';
+// import FixedLayout from '@vkontakte/vkui/dist/components/FixedLayout/FixedLayout';
+// import Div from '@vkontakte/vkui/dist/components/Div/Div';
 // import Group from '@vkontakte/vkui/dist/components/Group/Group';
 
 const osName = platform();
 
-const CompetenceWelcom = props => (
+const Epic = props => (
 	<Panel id={props.id}>
 		<PanelHeader
 			left={<PanelHeaderButton onClick={props.go} data-to="home">
@@ -25,7 +25,7 @@ const CompetenceWelcom = props => (
 		>
 			Ваши компетенции
 		</PanelHeader>
-		<>
+		{/* <>
 		<Group>
 			<Cell asideContent={<Switch />}>Организатор</Cell>
 			<Cell asideContent={<Switch />}>Коментатор</Cell>
@@ -43,14 +43,14 @@ const CompetenceWelcom = props => (
 				</Button>
 			</Div>
 		</FixedLayout>
-		</>
+		</> */}
 
 	</Panel>
 );
 
-CompetenceWelcom.propTypes = {
+Epic.propTypes = {
 	id: PropTypes.string.isRequired,
 	go: PropTypes.func.isRequired,
 };
 
-export default CompetenceWelcom;
+export default Epic;

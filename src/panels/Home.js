@@ -23,11 +23,8 @@ const Home = ({ id, go, fetchedUser }) => (
 
 		<Group title="Navigation Example">
 			<Div>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
+				{/* <Button size="xl" level="2" onClick={go} data-to="persik">
 					Show me the Persik, please
-				</Button>
-				{/* <Button size="xl" level="2" onClick={go} data-to="vasia">
-					Show me the Vasia, please
 				</Button> */}
 				<Button size="xl" level="2" onClick={go} data-to="CompetenceWelcom">
 					ОК, все понятно
