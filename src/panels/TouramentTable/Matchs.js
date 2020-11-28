@@ -11,17 +11,19 @@ const Matchs = () => {
                 <input class="tournamentSearchInput" type="text" placeholder="Поиск по турниру или команде"></input>
                 <input class="tournamentSearchCalendar" type="date"></input>
             </div>
+
             <section class="currentGames">
                 <h3>ТЕКУЩИЕ ИГРЫ</h3>
+
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -31,9 +33,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -41,27 +43,28 @@ const Matchs = () => {
                         <a href="" class="liveBroadcast"></a>
                     </div>
                 </a>
+
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
                         <div class="gameStatus">
                             <span class="gameStatusHalf">Игра 3/3</span>
-                            <span class="gameStatusMatchTime">Ожидание</span>
+                            <span class="gameStatusMatchTime">+59:34</span>
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -77,13 +80,13 @@ const Matchs = () => {
                 <h3>БУДУЩИЕ ИГРЫ</h3>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -93,9 +96,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -105,13 +108,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent" class="teamInfoBlock">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -121,9 +124,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="teamInfoBlock" class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -133,13 +136,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -149,9 +152,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -161,13 +164,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -177,9 +180,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -189,13 +192,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -205,9 +208,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -217,13 +220,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -233,9 +236,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -251,13 +254,13 @@ const Matchs = () => {
                 <h3>Прошедшие игры</h3>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -266,9 +269,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -278,13 +281,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -293,9 +296,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -305,13 +308,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -320,9 +323,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -332,13 +335,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -347,9 +350,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -359,13 +362,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -374,9 +377,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -386,13 +389,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -401,9 +404,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -413,13 +416,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -428,9 +431,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>
@@ -440,13 +443,13 @@ const Matchs = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div>
-                        <img src={tournamentLogo} width="50px" height="auto"/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                     </div>
                     <div class="matchStatusContainer">
                         <div class="matchStatusBlock">
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NNB-team</span>
-                                <span class="rate">1.62</span>
+                                <span class="teamRate">1.62</span>
                             </div>
                             <img class="teamLogo" src={teamLogo1}/>
                         </div>
@@ -455,9 +458,9 @@ const Matchs = () => {
                         </div>
                         <div class="matchStatusBlock">
                             <img class="teamLogo" src={teamLogo2}/>
-                            <div>
+                            <div class="matchStatusContent">
                                 <span class="teamName">NAVI</span>
-                                <span class="rate">2.21</span>
+                                <span class="teamRate">2.21</span>
                             </div>
                         </div>
                     </div>

@@ -23,7 +23,7 @@ const Tournaments = () => {
                 </div>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
-                        <img src={tournamentLogo}/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
                     <div class="tournamentDateBlock">
@@ -39,7 +39,7 @@ const Tournaments = () => {
                 <h3>ТЕКУЩИЕ ТУРНИРЫ</h3>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
-                        <img src={tournamentLogo}/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
                     <div class="tournamentDateBlock">
@@ -49,7 +49,7 @@ const Tournaments = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
-                        <img src={tournamentLogo}/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
                     <div class="tournamentDateBlock">
@@ -59,7 +59,7 @@ const Tournaments = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
-                        <img src={tournamentLogo}/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
                     <div class="tournamentDateBlock">
@@ -75,7 +75,7 @@ const Tournaments = () => {
                 <h3>ПРОШЕДШИЕ ТУРНИРЫ</h3>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
-                        <img src={tournamentLogo}/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
                     <div class="tournamentDateBlock">
@@ -85,7 +85,7 @@ const Tournaments = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
-                        <img src={tournamentLogo}/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
                     <div class="tournamentDateBlock">
@@ -95,7 +95,7 @@ const Tournaments = () => {
                 </a>
                 <a href="" class="tournamentLinks">
                     <div class="tournamentNameBlock">
-                        <img src={tournamentLogo}/>
+                        <img src={tournamentLogo} width="35" height="auto"/>
                         <span>EPIC League Division 1</span>
                     </div>
                     <div class="tournamentDateBlock">
