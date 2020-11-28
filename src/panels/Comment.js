@@ -45,7 +45,7 @@ const Comment  = (props) =>  {
             </CardGrid>
         </Group>
         </div>
-        <Group separator="hide" style={{marginTop:'400px'}}>
+        <Group separator="hide" style={{marginTop:'200px'}}>
             <CardGrid>
                 <Card size="l">
                     <div style={{ height: "auto", textAlign:"center" }} >

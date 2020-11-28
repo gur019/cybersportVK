@@ -17,6 +17,10 @@ import Header from '@vkontakte/vkui/dist/components/Header/Header';
 import HorizontalScroll from '@vkontakte/vkui/dist/components/HorizontalScroll/HorizontalScroll';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
+import FormLayout from '@vkontakte/vkui/dist/components/FormLayout/FormLayout';
+import FormLayoutGroup from '@vkontakte/vkui/dist/components/FormLayoutGroup/FormLayoutGroup';
+import Input from '@vkontakte/vkui/dist/components/Input/Input';
+
 import img1 from './feed/img/1.jpg';
 import img2 from './feed/img/2.jpeg';
 import img4 from './feed/img/4.jpg';
@@ -60,7 +64,21 @@ const Icreated  = (props) =>  {
 
 
 		<>
-        <p style={{marginLeft:'12px', fontSize:'18px'}}>Выберите необходимого сотрудника</p>
+
+        <FormLayout>
+            <FormLayoutGroup top="Название игры">
+                <Input type="text" placeholder="CS:GO" />
+            </FormLayoutGroup>
+        </FormLayout>
+
+        <p style={{marginLeft:'12px', fontSize:'14px', color:'#606263'}}>Тип мероприятия</p>
+		<Group>
+			<Cell asideContent={<Switch />}>Online / Offline</Cell>
+            <Cell asideContent={<Switch />}>Коммерческое / Бесплатное</Cell>
+            <Cell asideContent={<Switch />}>Требуется спонсор</Cell>
+		</Group>
+
+        <p style={{marginLeft:'12px', fontSize:'14px', color:'#606263'}}>Выберите необходимого сотрудника</p>
 		<Group>
 			<Cell asideContent={<Switch />}>Организатор</Cell>
 			<Cell asideContent={<Switch />}>Коментатор</Cell>

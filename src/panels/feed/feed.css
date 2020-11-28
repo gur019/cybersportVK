@@ -1,0 +1,46 @@
+.FeedBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #313133; */
+    height: 96px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid rgb(26, 104, 134);
+}
+
+.FeedBlock__1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(36, 36, 36, 0.8)), url('./img/123a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FeedBlock__2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./img/0010830-kibersport-po-russki-prognoz-na-pyat-let.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.FeedBlock__3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./img/WzMVv1RTA-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.FeedBlock__4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./img/p1_2349446_fe582283-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FeedBlock__5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./img/Dnui1CmWkAA83WK-min.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

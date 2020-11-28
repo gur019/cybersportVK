@@ -21,10 +21,12 @@ import {Finder} from './finder/finder'
 import {Tv} from './tv/tv';
 import {AddEvent} from './addEvent/addEvent';
 
+import sett from './img/sett.png';
+
 
 const Epic = (props) => {
     const [activePanelCustom, setActivePanelCustom] = useState('feed');
-    const [activePanelCustomHeader, setActivePanelCustomHeader] = useState('Новости');
+    const [activePanelCustomHeader, setActivePanelCustomHeader] = useState('Главная');
     
     function changePanel(e){
         setActivePanelCustom(e.currentTarget.dataset.story);
@@ -40,8 +42,8 @@ const Epic = (props) => {
               onClick = {changePanel}
               selected={activePanelCustom === 'feed'}
               data-story="feed"
-              data-text="Новости"
-              text="Новости"
+              data-text="Главная"
+              text="Главная"
             ><Icon28NewsfeedOutline/></TabbarItem>
             <TabbarItem
               onClick = {changePanel}
@@ -85,7 +87,7 @@ const Epic = (props) => {
             <Finder/>
         }
         {activePanelCustom === "settings" &&
-          <p>asdasd</p>
+           <img style={{width:'100%'}} src = {sett} />
         }
 
 
