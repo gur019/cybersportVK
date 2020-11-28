@@ -16,12 +16,12 @@ import Icon28SettingsOutline from '@vkontakte/icons/dist/28/settings_outline';
 import { useState } from "react";
 
 import {Feed} from './feed/feed';
-
+import {Finder} from './finder/finder'
 
 const osName = platform();
 
 const Epic = (props) => {
-    const [activePanelCustom, setActivePanelCustom] = useState('feed');
+    const [activePanelCustom, setActivePanelCustom] = useState('finder');
     const [activePanelCustomHeader, setActivePanelCustomHeader] = useState('Новости');
     
     function changePanel(e){
@@ -59,7 +59,7 @@ const Epic = (props) => {
               selected={activePanelCustom === 'addEvent'}
               data-story="addEvent"
               data-text="Создать турнир"
-              text="Создать турнир"
+              text="Создать"
             ><Icon28AddCircleOutline/></TabbarItem>
             <TabbarItem
               onClick = {changePanel}
@@ -86,7 +86,7 @@ const Epic = (props) => {
           <p>asdasd</p>
         }
         {activePanelCustom === "finder" &&
-          <p>asdasd</p>
+            <Finder/>
         }
         {activePanelCustom === "settings" &&
           <p>asdasd</p>
