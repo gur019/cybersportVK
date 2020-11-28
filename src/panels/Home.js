@@ -7,29 +7,31 @@ import Group from '@vkontakte/vkui/dist/components/Group/Group';
 import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import FixedLayout from '@vkontakte/vkui/dist/components/FixedLayout/FixedLayout';
+import './Home.css';
 
 const Home = ({ id, go, fetchedUser }) => (
-	<Panel id={id}>
-		<PanelHeader>Example 2</PanelHeader>
-		{fetchedUser &&
-		<Group title="User Data Fetched with VK Bridge">
-			<Cell
-				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
-				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
-			>
-				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
-			</Cell>
-		</Group>}
+	<Panel centered = {true} id={id} >
+		<PanelHeader>CyberSport VK</PanelHeader>
+		
 
-		<Group title="Navigation Example">
-			<Div>
-				{/* <Button size="xl" level="2" onClick={go} data-to="persik">
-					Show me the Persik, please
-				</Button> */}
-				<Button size="xl" level="2" onClick={go} data-to="CompetenceWelcom">
-					ОК, все понятно
-				</Button>
-			</Div>
+		<Group  title="Navigation Example">
+			{fetchedUser &&
+			<Group>
+				<Div className='User'>
+					{fetchedUser.photo_200 ? <Avatar size = {150} src={fetchedUser.photo_200}/> : null}
+					<h2>Привет, {fetchedUser.first_name}</h2>
+					<h3>Этот сервис поможет поможет Вам в организации и участии в турнирах</h3>
+				</Div>
+			</Group>
+			}
+			<FixedLayout vertical='bottom'>
+					<Div>
+						<Button mode='commerce' size="xl" level="2" onClick={go} data-to="CompetenceWelcom">
+							ОК, все понятно
+						</Button>
+					</Div>
+			</FixedLayout>
 		</Group>
 	</Panel>
 );
