@@ -7,6 +7,7 @@ import '@vkontakte/vkui/dist/vkui.css';
 import Home from './panels/Home';
 import Persik from './panels/Persik';
 import Vasia from './panels/Vasia';
+import CompetenceWelcom from './panels/CompetenceWelcom';
 
 const App = () => {
 	const [activePanel, setActivePanel] = useState('home');
@@ -38,6 +39,7 @@ const App = () => {
 			<Home id='home' fetchedUser={fetchedUser} go={go} />
 			<Persik id='persik' go={go} />
 			<Vasia id = 'vasia' go = {go} />
+			<CompetenceWelcom id = 'CompetenceWelcom' go = {go} />
 		</View>
 	);
 }
